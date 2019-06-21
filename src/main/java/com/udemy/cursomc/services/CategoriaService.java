@@ -11,7 +11,7 @@ import com.udemy.cursomc.repositories.CategoriaRepository;
 @Service
 public class CategoriaService {
 	
-	@Autowired //automaticaente instanciada pela spring
+	@Autowired //automaticamente é instanciada pela spring
 	private CategoriaRepository repo;
 	
 	public Categoria buscar(Integer id) {
